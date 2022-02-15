@@ -1,0 +1,23 @@
+WEEK 5 
+
+//Connecting to mongoDB
+
+1. cmd mongod, keep it open
+2. open new cmd, mongo
+
+note: no tables but collection, no rules but
+
+3. cmd, use book_store
+4. db.books.insert
+4.1 notepad,
+{
+"name":"Harry Potter",
+"author":"J K Rowling",
+"published":"1990",
+"price": 20,
+"description":"A wizard school"
+}
+4.2 copy and paste to cmd
+5. db.books.find().pretty()
+
+6.https://mongoosejs.com/docs/index.html
